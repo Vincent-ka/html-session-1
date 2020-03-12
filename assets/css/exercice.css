@@ -1,0 +1,57 @@
+body {
+    background: rgb(80, 85, 83);
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px 20px;
+    background: white;
+    box-shadow: -2px 3px 4px black;
+}
+
+img {
+    float: right;
+}
+
+img + p {
+    clear: both;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#green {
+    color: green;
+}
+
+#firstTable {
+    border: 1px solid black;
+}
+
+#firstTable td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#secondTable {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#secondTable th, #secondTable td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+audio {
+    margin-top: 200px;
+}

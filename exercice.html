@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/exercice.css">
+    <title>HTML Session 1</title>
+</head>
+<body>
+    <main>
+        <h1>HTML - Session 1</h1>
+        <p>Reproduce the following pattern using HTML and CSS. Your code should be valid ! Use the W3C
+        validator to check your document structure.</p>
+        <p>Create a folder named “assets” in your project and put an image, a video and an audio file ( You
+        can find some on the internet).</p>
+        <hr>
+
+        <h2>Iteration 1 - Inline & Blocks elements</h2>
+        <h3>Baby Steps</h3>
+        <img src="assets/images/img-1.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p><span id="red">Corrupti</span>, molestias illo fugiat quo ad quos deleniti cum nam iste ? Distinctio <span id="blue">dolor</span> nulla at pariatur
+        eveniet <span id="green">necessitatibus</span> praesentium molestias, ullam cupiditate.
+        </p>
+        <hr>
+
+        <h2>Iteration 2 - Simple list</h2>
+        <ol>
+            <li>Open a text editor (Visual Studio Code, Atom, Sublime Text...)</li>
+            <li>Type some (valid code)</li>
+            <li>Open your file with a web-server (lite-server...)</li>
+            <li>Visit the page on your favorite browser</li>
+        </ol>
+        <hr>
+
+        <h2>Iteration 3 - Nested List</h2>
+        <ol>
+            <li>News</li>
+            <li>Culture
+                <ul>
+                    <li>Cinema
+                        <ol>
+                            <li>Drama</li>
+                            <li>Action</li>
+                            <li>Science Fiction
+                                <ul>
+                                    <li>Best Ranked</li>
+                                    <li>More viewed</li>
+                                    <li>Lastest</li>
+                                </ul>
+                            </li>
+                            <li>Horror</li>
+                        </ol>
+                    </li>
+                    <li>Music</li>
+                    <li>literature</li>
+                </ul>
+            </li>
+            <li>Fooding</li>
+            <li>Sport</li>
+        </ol>
+        <hr>
+
+        <h2>Iteration 3 - Simple table</h2>
+        <table id="firstTable">
+            <tr>
+                <td>spead</td>
+                <td>heart</td>
+            </tr>
+            <tr>
+                <td>diamond</td>
+                <td>heart</td>
+            </tr>
+        </table>
+        <hr>
+
+        <h2>Iteration 4 - A more complex table</h2>
+        <table id="secondTable">
+            <tr>
+                <th colspan="2"></th>
+                <th colspan="2">First Group</th>
+                <th colspan="2">Second Group</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Person</th>
+                <th>Singular</th>
+                <th>Plural</th>
+                <th>Singular</th>
+                <th>Plural</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Present</td>
+                <td>1</td>
+                <td>I code</td>
+                <td>We code</td>
+                <td>Ie succeed</td>
+                <td>We succeed</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>You code</td>
+                <td>You code</td>
+                <td>You succeed</td>
+                <td>You succeed</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>He/she codes</td>
+                <td>The code</td>
+                <td>He/she succeed</td>
+                <td>The succeed</td>
+            </tr>
+        </table>
+        <hr>
+
+        <h2>Iteration 5 - Players</h2>
+        <p>Pay attention to formats (mp3/ogg for audio, mp4/webm for video).</p>
+        <p>Use the HTML5 audio and video tags to reproduce the example below.</p>
+        <p>Test it on different browsers.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SRn99oN1p_c"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <hr>
+
+        <audio controls src="assets/musique.mp3"></audio>
+    </main>
+</body>
+</html>
